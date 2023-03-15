@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modal-wrapper{
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: aliceblue;
+}
+
+.modal-container{
+  position: fixed;
+  max-width: 30rem;
+  top: 50%;
+  left: 50%;
+}
+.btn-modal{
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  width: 55%;
+  margin: 1px 64px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
+  font-family: 'Lora', serif;
+}
+.btn-modal:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
